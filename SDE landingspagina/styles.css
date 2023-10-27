@@ -58,143 +58,13 @@
     flex-shrink: 0;
     color: #191919;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 150px;
 }
 
-.lorem1{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem2{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem3{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.functies2{
-    width: 179px;
-    height: 72px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.lorem4{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem5{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem6{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.functies3{
-    width: 179px;
-    height: 72px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.lorem7{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem8{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lorem9{
-    width: 265px;
-    height: 232px;
-    flex-shrink: 0;
-    color: #191919;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
 .project{
     width: 277px;
@@ -214,4 +84,28 @@
     flex-shrink: 0;
 }
 
+.Design{
+    width: 720px;
+    height: 426px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.figmadesign2 {
+    font-size: 10px;
+    margin-top: 0; /* Adjust the top margin as needed */
+}
+
+.figmadesign2 p.lorem{
+    margin: 0;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
 
