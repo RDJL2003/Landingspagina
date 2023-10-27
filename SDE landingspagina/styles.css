@@ -1,0 +1,217 @@
+/* styles.css */
+.header {
+    padding: 20px;
+}
+
+.logo {
+    width: 361px;
+    height: 90px;
+    flex-shrink: 0;
+    
+}
+
+.titel1{
+    width: 325px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inhoud{
+    width: 366px;
+    height: 394px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.overlamper{
+    width: 965px;
+    height: 499px;
+    flex-shrink: 0;
+}
+
+.titel2{
+    width: 368px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.functies{
+    width: 179px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lorem1{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem2{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem3{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.functies2{
+    width: 179px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lorem4{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem5{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem6{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.functies3{
+    width: 179px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lorem7{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem8{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lorem9{
+    width: 265px;
+    height: 232px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.project{
+    width: 277px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo2{
+    width: 361px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+
