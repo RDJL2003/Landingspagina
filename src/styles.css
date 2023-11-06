@@ -1,1 +1,132 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+.header {
+    padding: 20px;
+}
+
+.logo {
+    width: 361px;
+    height: 90px;
+    flex-shrink: 0;
+    position: relative;
+    top: 100px;
+    left: 600px;
+    
+}
+
+.mock-up{
+    width: 400px;
+    height: 480px;
+    margin-left: 14px;
+}
+
+.titel1{
+    width: 325px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 380px;
+    right: 300px;
+}
+
+.inhoud{
+    width: 366px;
+    height: 394px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 380px;
+    right: 300px;
+    bottom: 200;
+}
+
+.overlamper{
+    width: 900px;
+    height: 450px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 150px;
+    left: 380px;
+
+    
+}
+
+.titel2{
+    width: 368px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.functies{
+    width: 179px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #191919;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 150px;
+}
+
+
+.project{
+    width: 277px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo2{
+    width: 361px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+.Design{
+    width: 720px;
+    height: 426px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.figmadesign2 {
+    font-size: 10px;
+    margin-top: 0; /* Adjust the top margin as needed */
+}
+
+.figmadesign2 p.lorem{
+    margin: 0;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
