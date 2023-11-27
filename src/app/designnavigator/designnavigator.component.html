@@ -1,0 +1,24 @@
+<!-- designnavigator.component.html -->
+
+<div class="designnavigator-container">
+  <!-- Initialize Swiper in this wrapper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div *ngFor="let slide of slides" class="swiper-slide designnavigator-slide">
+        <!-- Your slide content goes here -->
+        <h2>{{ slide.title }}</h2>
+        <p>{{ slide.description }}</p>
+
+        <!-- Add your image rendering logic here -->
+        <img [src]="slide.image" alt="{{ slide.title }}" />
+
+        <!-- Link to more details -->
+        <a [href]="slide.link">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Add navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
