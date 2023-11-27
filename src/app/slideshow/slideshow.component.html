@@ -2,7 +2,18 @@
 
 <!-- slideshow.component.html -->
 
-<div class="slideshow-container">
-    <img [src]="'/assets/' + images[currentImageIndex]" alt="Slideshow Image">
+<div [@fadeInOut]="fadeInOutState" class="slideshow-container">
+    <img [src]="'/assets/' + images[currentImageIndex]" alt="Slideshow Image" [@fadeInOut]>
+    <div class="text-box">
+      <h1>Complete WordPress Webdesign Solutions</h1>
+      <p class="p">Bent u op zoek naar een nieuwe WordPress-website? Of het nu gaat om een eenvoudige website of een geavanceerde WooCommerce-webshop, 
+        wij zijn de perfecte partner om uw online aanwezigheid te realiseren. 
+        <br>
+        <br>
+        Onze benadering van website-ontwikkeling gaat verder dan alleen het creëren van visueel aantrekkelijke pagina's. We streven ernaar om uw website effectief 
+        te laten werken, of het nu gaat om het aantrekken van nieuwe klanten, het genereren van offerte-aanvragen of het faciliteren van directe verkopen voor 
+        WooCommerce-webshops.</p>
+    </div>
   </div>
+
   
