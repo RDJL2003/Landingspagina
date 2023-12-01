@@ -1,17 +1,38 @@
 
 
-.slideshow-container {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
-  }
+/* In de stijl van je component (slideshow.component.css) */
+:host .slideshow-container {
+  position: relative; 
+  max-width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  opacity: 1;
+  transition: 1s;
+
+}
+img{
+  width:  100%;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+ 
+}
   
-  button {
+  .text-box {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-40%);
+    background-color: rgba(255, 106, 26, 0.82);
+    padding: 0px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ 
+  .p {
+    font-size: 20px;
   }
+ 
   
