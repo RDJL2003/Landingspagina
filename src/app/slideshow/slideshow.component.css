@@ -6,10 +6,13 @@
   max-width: auto;
   margin: 1 auto; 
   opacity: 1;
-  transition: opacity 1s;
-  padding-left: 50px;
-}
+  transition: 1s;
 
+}
+img{
+  width: auto;
+  height: 100%;
+}
   
   .text-box {
     position: absolute;
