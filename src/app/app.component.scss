@@ -74,4 +74,11 @@ button{
     margin-left: 1200px;
     position: relative;
     top: -380px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFB205; /* Change to the desired hover background color */
+    color: #fff; /* Change to the desired hover text color */
+    /* Additional styles for hover state */
 }
