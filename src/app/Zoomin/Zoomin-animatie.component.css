@@ -1,0 +1,11 @@
+.mock-up {
+    width: 400px;
+    height: 480px;
+    margin-left: 14px;
+    transition: transform 0.3s ease; /* Voeg een overgang toe voor een vloeiende animatie */
+  }
+
+  .mock-up:hover {
+    transform: scale(1.1); /* Voeg hier de vergrote schaal toe voor de hover */
+  }
+  
