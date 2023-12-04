@@ -21,9 +21,16 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   })
 
   export class ZoominComponent {
-    animationState: string = 'normal';
-  
-    zoom(state: string) {
-      this.animationState = state;
-    }
+    // Maak een object aan om de animatiestaten voor elke afbeelding bij te houden
+  animationStates: { [key: string]: string } = {
+    mockup1: 'normal',
+    mockup2: 'normal',
+    mockup3: 'normal',
+    mockup4: 'normal'
+  };
+
+  zoom(imageKey: string, state: string) {
+    // Update de animatiestaat van de specifieke afbeelding
+    this.animationStates[imageKey] = state;
   }
+}
