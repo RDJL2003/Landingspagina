@@ -75,10 +75,12 @@ button{
     position: relative;
     top: -380px;
     transition: background-color 0.3s ease;
+    border-color: #000;
 }
 
 button:hover {
     background-color: #FFB205; /* Change to the desired hover background color */
-    color: #fff; /* Change to the desired hover text color */
+    color: #fff;
+    border-color: #000; /* Change to the desired hover text color */
     /* Additional styles for hover state */
 }
