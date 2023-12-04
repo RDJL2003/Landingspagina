@@ -1,7 +1,16 @@
+
+.mock-up-titel {
+font-size: 35px;
+font-style: normal;
+margin-bottom: 25px;
+
+}
+
 .mock-up {
     width: 400px;
     height: 480px;
     margin-left: 14px;
+    margin-bottom: 20px;
     transition: transform 0.3s ease; /* Voeg een overgang toe voor een vloeiende animatie */
   }
 
