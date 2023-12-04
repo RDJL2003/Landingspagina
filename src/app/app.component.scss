@@ -10,6 +10,9 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 120px;
+    position: relative;
+    top: 25px;
 }
 
 .Titeldesign{
@@ -19,6 +22,10 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 1190px;
+    position: relative;
+    top: -380px;
+
 }
 
 .beschrijving{
@@ -28,6 +35,11 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 1190px;
+    position: relative;
+    top: -380px;
+    
+       
 }
 
 swiper-slide{
@@ -36,7 +48,11 @@ swiper-slide{
         height: 500px; 
         width: auto;
         border-radius: 10%;
+        margin-left: 120px;
+        position: relative;
+        top: 50px;
     }
+    height: 750px;
     
 
 }
@@ -55,4 +71,7 @@ button{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 1200px;
+    position: relative;
+    top: -380px;
 }
