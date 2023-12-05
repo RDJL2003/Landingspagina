@@ -12,7 +12,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
           transform: 'scale(1)'
         })),
         state('zoomed', style({
-          transform: 'scale(1.1)'
+          transform: 'scale(1.6)'
         })),
         transition('normal => zoomed', animate('300ms ease-in')),
         transition('zoomed => normal', animate('300ms ease-out'))
