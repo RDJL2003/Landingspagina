@@ -3,18 +3,35 @@
 font-size: 35px;
 font-style: normal;
 margin-bottom: 25px;
+margin-left: 14px;
+
+}
+
+.mock-ups {
+  display: flex;
+  margin: 0 10px;
 
 }
 
 .mock-up {
-    width: 400px;
-    height: 480px;
-    margin-left: 14px;
+  display: block;
+    max-height: 480px;
+    margin-right: 14px;
     margin-bottom: 20px;
     transition: transform 0.3s ease; /* Voeg een overgang toe voor een vloeiende animatie */
   }
 
-  .mock-up:hover {
-    transform: scale(1.1); /* Voeg hier de vergrote schaal toe voor de hover */
+  .mock-up img {
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .mock-up {
+    overflow: hidden;
+  }
+
+  .mock-ups a:last-child {
+    margin-right: 0px;
+
   }
   
