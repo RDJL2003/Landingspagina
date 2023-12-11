@@ -5,10 +5,10 @@ body{
 
 .Titel{
     color: #000;
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 31px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     line-height: normal;
     margin-left: 120px;
     position: relative;
@@ -17,10 +17,10 @@ body{
 
 .Titeldesign{
     color: #191919;
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     line-height: normal;
     margin-left: 1190px;
     position: relative;
@@ -30,10 +30,10 @@ body{
 
 .beschrijving{
     color: #191919;
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 32px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: normal;
     margin-left: 1190px;
     position: relative;
@@ -59,6 +59,7 @@ swiper-slide{
 
 swiper-container{
     background: #FF8902;
+    
 }
 
 button{
@@ -66,7 +67,7 @@ button{
     width: 150px;
     background-color: #fff;
     color: #191919;
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
