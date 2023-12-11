@@ -39,8 +39,8 @@ h1 {
 
 
 .logo {
-    width: 361px;
-    height: 90px;
+    width: 300px;
+    height: 80px;
     flex-shrink: 0;
     position: relative; /* Gebruik absolute positionering */
     z-index: 1;
@@ -79,9 +79,10 @@ h1 {
 }
 
 .logo2{
-    width: 361px;
-    height: 90px;
+    width: 301px;
+    height: 80px;
     flex-shrink: 0;
+    position: center;
 }
 
 .Design{
@@ -107,7 +108,8 @@ h1 {
 
 footer {
 
-    background-color: #FF8902;
+    background: rgb(255,179,45);
+    background: linear-gradient(90deg,  rgba(255,179,45,1) 6%, rgba(254,162,0,1) 17%, rgba(255,124,0,1) 41%);
     display: flex;
     align-items: right;
 }
