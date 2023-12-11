@@ -8,6 +8,7 @@
   margin-right: 0;
   opacity: 1;
   transition: 1s;
+  margin-bottom: 0;
 
 }
 img{
@@ -23,11 +24,13 @@ img{
     bottom: 0;
     left: 75%;
     transform: translateX(-40%);
-    background-color: rgba(255, 106, 26, 0.82);
+    background: rgb(255,179,45);
+    background: linear-gradient(90deg,  rgba(255,179,45,1) 6%, rgba(254,162,0,1) 17%, rgba(255,124,0,1) 41%);
     padding: 0px;
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
  
