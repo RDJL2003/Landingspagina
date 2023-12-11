@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { SlideshowComponent } from './slideshow/slideshow.component'; 
 import { ZoominComponent } from './Zoomin/Zoomin-animatie.component';
 
+
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
+import { SwiperComponent } from './swiper/swiper.component';
 // register Swiper custom elements
 register(); 
 
@@ -17,6 +19,7 @@ register();
     AppComponent,
     SlideshowComponent,
     ZoominComponent,
+    SwiperComponent,
   ],
   imports: [
     BrowserModule,
