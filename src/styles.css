@@ -1,4 +1,18 @@
 /* styles.css */
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url(assets/Font/poppins-regular1-webfont.woff) format('woff'),
+         url(assets/Font/poppins-regular1-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 100;
+    src: url(assets/Font/poppins-bold-webfont.woff) format('woff'),
+         url(assets/Font/poppins-bold-webfont.woff2) format('woff2');
+}
+
 header {
     padding: 20px;
 }
@@ -8,7 +22,21 @@ body{
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+
 
 .logo {
     width: 361px;
