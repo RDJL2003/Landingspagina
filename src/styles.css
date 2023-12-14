@@ -108,14 +108,26 @@ h1 {
 
 footer {
 
-    background: rgb(255,179,45);
-    background: linear-gradient(90deg,  rgba(255,179,45,1) 6%, rgba(254,162,0,1) 17%, rgba(255,124,0,1) 41%);
+    background-color: black;
+    padding: 20px; /* Verander de padding naar wens */
     display: flex;
-    align-items: right;
+    justify-content: center;
 }
 
 .footertext {  
-    margin-left: 1000px;
-    margin-bottom: 40px; 
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
+
+
+.footertext p:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footertext p:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px; 
+    color: white;
+}
