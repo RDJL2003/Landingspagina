@@ -14,7 +14,7 @@
 }
 
 header {
-    padding: 20px;
+    padding: 0px;
 }
 
 body{
@@ -34,6 +34,7 @@ h2 {
 h1 {
     font-family: 'Poppins';
     font-weight: 100;
+    font-size: 2vw;
 }
 
 
@@ -42,7 +43,10 @@ h1 {
     width: 300px;
     height: 80px;
     flex-shrink: 0;
-    position: relative; /* Gebruik absolute positionering */
+    margin-left: 37vw;
+    width: 20vw;
+    height: 5.5vw;
+    position: center;
     z-index: 1;
   }
     
