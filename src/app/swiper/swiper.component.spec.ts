@@ -1,3 +1,4 @@
+
 import { ComponentFixture, TestBed, tick, fakeAsync } from '@angular/core/testing';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SwiperComponent } from './swiper.component';
@@ -31,3 +32,4 @@ describe('SwiperComponent', () => {
   });
 
 });
+
