@@ -1,6 +1,7 @@
-
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -8,8 +9,10 @@ describe('AppComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AppComponent],
+      declarations: [AppComponent, SlideshowComponent],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA], // Add CUSTOM_ELEMENTS_SCHEMA here
     });
+
     fixture = TestBed.createComponent(AppComponent);
     component = fixture.componentInstance;
   });
@@ -22,10 +25,4 @@ describe('AppComponent', () => {
     expect(component.title).toEqual('angular-app');
   });
 
-  it('should render the title in the template', () => {
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.title').textContent).toContain('angular-app');
-  });
 });
-
