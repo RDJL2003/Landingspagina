@@ -1,3 +1,4 @@
+
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { ZoominComponent } from './Zoomin-animatie.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -40,4 +41,6 @@ describe('ZoominComponent', () => {
 
   // Add more tests as needed for your specific use case
 });
+
+
 
