@@ -48,10 +48,10 @@ swiper-slide{
     img{
         height: 450px; 
         width: auto;
-        border-radius: 10%;
         margin-left: 120px;
         position: relative;
         margin-top: 100px;
+        filter: drop-shadow(10px 10px 5px );
     }
     height: 650px;
     
